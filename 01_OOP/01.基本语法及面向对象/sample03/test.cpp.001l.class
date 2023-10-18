@@ -1,0 +1,30 @@
+Vtable for Base
+Base::_ZTV4Base: 5 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI4Base)
+16    0
+24    0
+32    (int (*)(...))__cxa_pure_virtual
+
+Class Base
+   size=16 align=8
+   base size=16 base align=8
+Base (0x0x7f81b003a420) 0
+    vptr=((& Base::_ZTV4Base) + 16)
+
+Vtable for FZY
+FZY::_ZTV3FZY: 5 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI3FZY)
+16    (int (*)(...))FZY::~FZY
+24    (int (*)(...))FZY::~FZY
+32    (int (*)(...))FZY::getAAA
+
+Class FZY
+   size=24 align=8
+   base size=20 base align=8
+FZY (0x0x7f81afee61a0) 0
+    vptr=((& FZY::_ZTV3FZY) + 16)
+  Base (0x0x7f81b003a840) 0
+      primary-for FZY (0x0x7f81afee61a0)
+

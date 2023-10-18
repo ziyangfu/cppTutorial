@@ -1,0 +1,17 @@
+Vtable for BaseWithVirtual
+BaseWithVirtual::_ZTV15BaseWithVirtual: 8 entries
+0     (int (*)(...))0
+8     (int (*)(...))(& _ZTI15BaseWithVirtual)
+16    (int (*)(...))BaseWithVirtual::~BaseWithVirtual
+24    (int (*)(...))BaseWithVirtual::~BaseWithVirtual
+32    (int (*)(...))BaseWithVirtual::virtualFunc1
+40    (int (*)(...))BaseWithVirtual::virtualFunc2
+48    (int (*)(...))BaseWithVirtual::virtualFunc3
+56    (int (*)(...))BaseWithVirtual::virtualFunc4
+
+Class BaseWithVirtual
+   size=16 align=8
+   base size=13 base align=8
+BaseWithVirtual (0x0x7f9e72f60420) 0
+    vptr=((& BaseWithVirtual::_ZTV15BaseWithVirtual) + 16)
+
